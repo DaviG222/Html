@@ -47,6 +47,9 @@ nav a, nav button {
     padding: 50px; /* Adiciona um pouco de espaçamento ao redor */
 }
 
+.intro p {
+    font-size: 1.2em;
+}
 .intro h2 {
     font-size: 1.8em; /* Ajuste o tamanho da fonte conforme necessário */
     margin: 0; /* Remove margem para evitar deslocamento */
@@ -74,19 +77,24 @@ main {
 
 .produtos {
     display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .produto {
     background-color: white;
+    text-align: center;
     padding: 15px;
     border: 1px solid #ccc; 
-    width: 400px;
+    width: 370px;
     text-align: center;
 }
 
 .produto img {
+    justify-content: center;
+    margin: 0;
     max-width: 100%;
 }
 
