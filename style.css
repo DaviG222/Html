@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px 0;
+    background-color: #f4f4f4;
+    color: #333;
+/*     overflow-x: hidden; /* Impede que o conteúdo transborde na horizontal */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    min-height: 80px; 
+}
+
+
+/*
+nav {
+    margin-top: 0px;
+}
+*/
+nav a, nav button {
+    color: white;
+    margin: 230px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+/* Estilo para a seção intro da página inicial */
+.intro {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 50px; /* Adiciona um pouco de espaçamento ao redor */
+}
+
+.intro h2 {
+    font-size: 1.8em; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0; /* Remove margem para evitar deslocamento */
+    color:#333; /* Cor do título, caso queira ajustar */
+    display: inline-block; /* Garante que o título seja tratado como um bloco e centralizado corretamente */
+}
+
+.destaques h1 {
+    font-size: 2em; 
+    margin: 0;
+    color: #333;
+    display: inline-block; 
+}
+
+.destaques li{
+    font-size: 1.5em ;
+    margin: 15px;
+    color: #333;
+}
+
+main {
+    min-height: calc(100vh - 140px); /*altura da viewport menos header +9 footer */
+    padding: 20px;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc; 
+    width: 400px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.produto-detalhe {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+
+.produto-detalhe img {
+    max-width: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 20px 50px; /* Reduzindo o padding */
+    min-height: 60px;  /* Ajustando a altura mínima */
+    width: 100%;
+    min-height: 80px;
+}
+
+
+button, .btn {
+    background-color: #333;        /* cor igual ao header/footer */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+button:hover, .btn:hover {
+    background-color: #555;        /* um cinza mais claro no hover */
+}
