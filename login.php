@@ -42,10 +42,7 @@
 <body>
     <header>
         <h1>BitBox Store</h1>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="produtos.html">Produtos</a>
-        </nav>
+
     </header>
 
     <main>
