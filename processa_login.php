@@ -37,14 +37,13 @@ if ($usuario === $usuario_correto && password_verify($senha, $senha_correta_hash
             padding: 70px 0;
             text-align: center;
             min-height: 60px;
-            text-align: center;
-            text-height: 10px;
+
         }
         header h1 {
             padding: 0px;
             margin: 0;
             font-size: 2em;
-            text-align: center;
+            text-align: top;
             height: 10px;
         }
       /*  nav a, nav button {
